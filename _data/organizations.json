@@ -1330,13 +1330,13 @@
 	},
 	{
 		"id": "ANZoRuHXLGeygEszmdQlI0mTwhb5BpT15jzTu123dxuD0KYX18ZrbYJSS0AAk5eU3Kl5jhsNnAMdWwysBAtVfw3A117117",
-		"name": "Pagelyu00ae",
+		"name": "Pagely",
 		"summary": "Pagely is the first Managed WordPress Hosting service that handles most of the technical stuff like upgrades, performance, and security to allow you to focus on your content. We provide WordPress Hosting for personal sites to multi-server clusters for enterprise and all manner of sites in between.",
 		"details": "Pagely is the first Managed WordPress Hosting service that handles most of the technical stuff like upgrades, performance, and security to allow you to focus on your content. We provide WordPress Hosting for personal sites to multi-server clusters for enterprise and all manner of sites in between.",
 		"website": "http://pagely.com/",
 		"twitter": "https://twitter.com/pagely",
 		"github": "",
-		"apisjson_url": "http://theapistack.com/data/pagely/apis.json",
+		"apisjson_url": "",
 		"sdksio_url": "",
 		"postman_url": "",
 		"portal_url": "",
@@ -1811,30 +1811,6 @@
 			"Productivity",
 			"Communications",
 			"Bots"
-		]
-	},
-	{
-		"id": "123bNc1RLEIzXi9AwuRNMUhcYg28tM0oO2AWVW3SgSYmAdO5Uph8KyF1vIG123i4OIsf123QKEmb1166UcYQNPUbMq3sgw117117",
-		"name": "SightCall",
-		"summary": "SightCall software development kits for browsers and mobile devices help developers rapidly integrate Realtime Video, Audio and Text capabilities directly into their Website or Mobile App. SightCall software products are aimed at developers and make incorporating Realtime Communication as easy as using any other client-side framework.",
-		"details": "SightCall software development kits for browsers and mobile devices help developers rapidly integrate Realtime Video, Audio and Text capabilities directly into their Website or Mobile App. SightCall software products are aimed at developers and make incorporating Realtime Communication as easy as using any other client-side framework.",
-		"website": "http://www.sightcall.com/",
-		"twitter": "https://twitter.com/sightcall",
-		"github": "",
-		"apisjson_url": "",
-		"sdksio_url": "",
-		"postman_url": "",
-		"portal_url": "",
-		"base_url": "http://www.sightcall.com/developers/",
-		"blog": "http://www.sightcall.com/blog/",
-		"blogrss": "http://sightcall.com/feed/",
-		"logo": "http://pbs.twimg.com/profile_images/509756979095433218/aihnKTdW_normal.png",
-		"logo_width": "100",
-		"screenshot": "http://pbs.twimg.com/profile_images/509756979095433218/aihnKTdW_normal.png",
-		"tags": [
-			"Webrtc",
-			"Voice",
-			"Communications"
 		]
 	},
 	{
