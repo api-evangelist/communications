@@ -1355,52 +1355,6 @@
 		]
 	},
 	{
-		"id": "sCOoKFtYJtLGsMpgP7tozIUInFhW5a69qR7C3IbbX0Y2wYJimL6zh6UM5s6hHhq9su3wdc8JDX1bjm6dpbPfSA117117",
-		"name": "Personify",
-		"summary": false,
-		"details": "",
-		"website": "",
-		"twitter": "https://twitter.com/PersonifyInc",
-		"github": "",
-		"apisjson_url": "",
-		"sdksio_url": "",
-		"postman_url": "",
-		"portal_url": "",
-		"base_url": "",
-		"blog": "",
-		"blogrss": "",
-		"logo": "http://pbs.twimg.com/profile_images/466684647020040192/lS0t1FJk_normal.jpeg",
-		"logo_width": "100",
-		"screenshot": "http://pbs.twimg.com/profile_images/466684647020040192/lS0t1FJk_normal.jpeg",
-		"tags": [
-			"Communications",
-			"Chicago"
-		]
-	},
-	{
-		"id": "c5r3RAgd7oxF8TeGeQsOv8iulKtE3UCWofAvVVMnBq123VOXzpm8JtWHqBAAKYl3hNcKX5Mf123HepQwPks4ATzltg117117",
-		"name": "pingpal",
-		"summary": false,
-		"details": "",
-		"website": "",
-		"twitter": "https://twitter.com/pingpals",
-		"github": "",
-		"apisjson_url": "",
-		"sdksio_url": "",
-		"postman_url": "",
-		"portal_url": "",
-		"base_url": "",
-		"blog": "",
-		"blogrss": "",
-		"logo": "http://pbs.twimg.com/profile_images/3081676065/9f03b32cb954856d946eba0860913cba_normal.png",
-		"logo_width": "100",
-		"screenshot": "http://pbs.twimg.com/profile_images/3081676065/9f03b32cb954856d946eba0860913cba_normal.png",
-		"tags": [
-			"Location",
-			"Communications"
-		]
-	},
-	{
 		"id": "7Tfp9aMOcDy8VCH0mFzhri2jP123XatUzcdNsa123DxLXBX8WymjeJEYk0ebBqeEyk123oqpa7ogfwyyZ7uEa9ipDIcQ117117",
 		"name": "Pinnatta (Slackbot)",
 		"summary": "Pinnatta is the worlds first interactive messenger. u0026nbsp;Its a new and fun way to send interactive cards, personalised video and animated messages to your friends and family.This integration allows your team to send interactive Pinnatta cards to your channels and teammates for every occasion: say hello, wish Happy Birthday, congratulate them or simply send them a goodmorning/goodnight message in ",
@@ -2528,30 +2482,6 @@
 			"Office Management",
 			"Communications",
 			"Bots"
-		]
-	},
-	{
-		"id": "t3CBQo9BtDg4nxXGY3jdrKF43wcCPCzEW9rdgbGM4YANbKqb41YzkG38NNg4Y0Vouoe116jfVkfERDJS123r5k2xsg117117",
-		"name": "Whispir",
-		"summary": false,
-		"details": "",
-		"website": "http://developer.whispir.com",
-		"twitter": "",
-		"github": "",
-		"apisjson_url": "",
-		"sdksio_url": "",
-		"postman_url": "",
-		"portal_url": "",
-		"base_url": null,
-		"blog": "",
-		"blogrss": "",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1665_logo.png",
-		"logo_width": "150",
-		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1665_logo.png",
-		"tags": [
-			"Social",
-			"Messaging",
-			"Communications"
 		]
 	},
 	{
