@@ -1167,31 +1167,6 @@
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/medium-logo.png",
 		"tags": [
 			"Communications",
-			"Communications",
-			"Blogging"
-		]
-	},
-	{
-		"id": "qMfZ8W123qO3AJ9VokmTaefSjBXQbGahFMX116TX7c0fhIn9ogHiGAtkzyHoizM123FrnceLHDVZbno3wTjCV8IvdXZQ117117",
-		"name": "Medium",
-		"summary": "Medium is an online publishing platform founded by Twitter co-founder Evan Williams in August 2012. The platform has evolved into a hybrid of non-professional contributions and professional, paid contributions, an example of social journalism.",
-		"details": "Medium is an online publishing platform founded by Twitter co-founder Evan Williams in August 2012. The platform has evolved into a hybrid of non-professional contributions and professional, paid contributions, an example of social journalism.",
-		"website": "https://medium.com/",
-		"twitter": "https://twitter.com/Medium",
-		"github": "https://github.com/Medium",
-		"apisjson_url": "",
-		"sdksio_url": "",
-		"postman_url": "",
-		"portal_url": "https://github.com/Medium",
-		"base_url": "",
-		"blog": "",
-		"blogrss": "",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/medium-logo.png",
-		"logo_width": "150",
-		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/medium-logo.png",
-		"tags": [
-			"Communications",
-			"Communications",
 			"Blogging"
 		]
 	},
@@ -1919,6 +1894,37 @@
 			"Marketing",
 			"Communications",
 			"Bots"
+		]
+	},
+	{
+		"id": "nojJAEzmZhmbsl3lTpLGp8EPwCTDLONjnQaSru8ObJFdGUrr76GwW81SyK5W8123KtwGFE116nWnbxiWL123AYmW15LQ117117",
+		"name": "Slack",
+		"summary": "Slack is a team communication application providing services such as real-time messaging, archiving, and to search for modern teams. It offers one-on-one messaging, private groups, persistent chat rooms, and direct messaging as well as group chats organized by topic. All content inside Slack is searchable from one search box and it integrates with a number of third-party services, including Google",
+		"details": "Slack is a team communication application providing services such as real-time messaging, archiving, and to search for modern teams. It offers one-on-one messaging, private groups, persistent chat rooms, and direct messaging as well as group chats organized by topic. All content inside Slack is searchable from one search box and it integrates with a number of third-party services, including Google Docs, Dropbox, Heroku, Crashlytics, GitHub, and Zendesk.",
+		"website": "https://slack.com",
+		"twitter": "https://twitter.com/slackapi",
+		"github": "https://github.com/slackhq",
+		"apisjson_url": "",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "https://github.com/slackhq",
+		"base_url": "https://api.slack.com/",
+		"blog": "http://slackhq.com/",
+		"blogrss": "http://slackhq.com/rss",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png",
+		"logo_width": "150",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png",
+		"tags": [
+			"My API Stack",
+			"Messaging API",
+			"Messaging",
+			"Indie EdTech Data Jam",
+			"Imports",
+			"Getting Started",
+			"Communications",
+			"Collaboration-Stack",
+			"Chat-Stack",
+			"API-Stack"
 		]
 	},
 	{
