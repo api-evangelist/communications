@@ -1,227 +1,4 @@
 ---
-- curated_id: 690d6ad98586817270dfb6b8f7749599
-  item_date: "2012-04-26 20:49:20"
-  title: 'John Sheehan : The API Developer Experience Baseline'
-  url: http://john-sheehan.com/post/21850777760/the-api-developer-experience-baseline
-  domain: john-sheehan.com
-  image: ""
-- curated_id: d5ab7605a9df5a936e02d3eb086a1ad1
-  item_date: "2012-05-08 23:47:55"
-  title: 3 Problems AWS Needs to Address
-  url: http://blog.jacobelder.com/2012/05/3-problems-aws-needs-to-address/
-  domain: blog.jacobelder.com
-  image: ""
-- curated_id: 3ea7a744f2c5c13d291acc761167eebd
-  item_date: "2012-05-09 09:52:20"
-  title: Creating a Fast RESTful API Using CakePHP and New Relic
-  url: https://blog.newrelic.com/2012/05/08/creating-a-fast-restful-api-using-cakephp-and-new-relic/
-  domain: blog.newrelic.com
-  image: ""
-- curated_id: b59445cc83ee1118a9a177592ac977fe
-  item_date: "2013-03-03 00:00:00"
-  title: WunWun is creating an on-demand ecosystem
-  url: http://blog.dwolla.com/wunwun-is-creating-an-on-demand-ecosystem/
-  domain: blog.dwolla.com
-  image: ""
-- curated_id: 7a9be0b01cfe4664f35d9d2df35875f1
-  item_date: "2013-04-12 00:00:00"
-  title: Symbols entities for Tweets
-  url: https://dev.twitter.com/blog/symbols-entities-tweets
-  domain: dev.twitter.com
-  image: ""
-- curated_id: ca999c1e1b6a278ed23c460061c0e81f
-  item_date: "2013-04-30 00:00:00"
-  title: 'Skype Video Messaging: Preview for Windows Desktop Users'
-  url: http://blogs.skype.com/2013/04/30/skype-video-messaging-preview-for-windows-desktop-users/
-  domain: blogs.skype.com
-  image: ""
-- curated_id: 2d3c07e9a30371cae8a6f088decf59af
-  item_date: "2013-04-30 00:00:00"
-  title: 'Platform Success Strategies: Communicate the Value of Your API'
-  url: http://www.mashery.com/blog/platform-success-strategies-communicate-value-your-api
-  domain: www.mashery.com
-  image: ""
-- curated_id: 3d95ca90d4769669f603d71dc5f6a9d5
-  item_date: "2013-05-03 00:00:00"
-  title: API v1 Retirement Date Extended to June 11, 2013
-  url: https://dev.twitter.com/blog/api-v1-retirement-date-extended-to-june-11
-  domain: dev.twitter.com
-  image: ""
-- curated_id: 4f22fe5c95e93b3889c8af8640accbd5
-  item_date: "2013-05-10 00:00:00"
-  title: It Takes A Village ? The Lassy Project Crowdsources Communication To Keep
-    Kids Safe
-  url: https://www.twilio.com/blog/2013/05/it-takes-a-village-the-lassy-project-crowdsources-communication-to-keep-kids-safe.html
-  domain: www.twilio.com
-  image: ""
-- curated_id: 0dca9fe06a11702ecc5c9109f40c5bbd
-  item_date: "2013-05-10 00:00:00"
-  title: Moving Forward with Technology Transitions Trials
-  url: https://www.fcc.gov/news-events/blog/2013/05/10/moving-forward-technology-transitions-trials
-  domain: www.fcc.gov
-  image: ""
-- curated_id: a8f4c8e31836f2a2e52ea664500fe41b
-  item_date: "2013-05-13 00:00:00"
-  title: Skype 2.6 for Windows Phone 8
-  url: HTTP://h/
-  domain: h
-  image: ""
-- curated_id: 9932d2d110bd6fdc6c152c6632a39c52
-  item_date: "2013-05-13 00:00:00"
-  title: Update to Skype 6.3 for Windows
-  url: http://blogs.skype.com/2013/05/13/update-to-skype-6-3-for-windows/
-  domain: blogs.skype.com
-  image: ""
-- curated_id: d848a086c89ff50f9a23ae88ea346003
-  item_date: "2013-05-13 00:00:00"
-  title: Deprecating HTTP 1.0 for the Streaming API
-  url: https://blog.twitter.com/2013/deprecating-http-10-for-the-streaming-api
-  domain: blog.twitter.com
-  image: ""
-- curated_id: 55c23d7f123263c8fc89f0ac13626b19
-  item_date: "2013-05-20 00:00:00"
-  title: Skype for Linux 4.2
-  url: http://blogs.skype.com/2013/05/20/skype-for-linux-4-2/
-  domain: blogs.skype.com
-  image: ""
-- curated_id: 181e47b22606aabfe05831697816c98f
-  item_date: "2013-05-30 00:00:00"
-  title: 'Mobile app development: Catching crashers'
-  url: https://blog.twitter.com/2013/mobile-app-development-catching-crashers
-  domain: blog.twitter.com
-  image: ""
-- curated_id: 6cf5c197828d5afc2e3b6e42ab5635f9
-  item_date: "2013-05-30 00:00:00"
-  title: Twitter Certified Products Program Expansion
-  url: https://dev.twitter.com/blog/twitter-certified-products-program-expansion
-  domain: dev.twitter.com
-  image: ""
-- curated_id: a066f7a5e254a082d609d92d68d4592d
-  item_date: "2013-05-30 00:00:00"
-  title: 'Crashlytics for Android: Find the droid crashes you?re looking for'
-  url: https://dev.twitter.com/blog/crashlytics-android-find-droid-crashes-you%E2%80%99re-looking
-  domain: dev.twitter.com
-  image: ""
-- curated_id: 90d23cfaf074c715c48aae7bb7664e8d
-  item_date: "2013-06-04 00:00:00"
-  title: Openmind Networks Offers its Mobile Communications Platform via API
-  url: http://www.programmableweb.com/news/openmind-networks-offers-its-mobile-communications-platform-api/2013/06/04
-  domain: www.programmableweb.com
-  image: ""
-- curated_id: 214b670d2e822f8d590d4c59d90c036b
-  item_date: "2013-06-04 00:00:00"
-  title: Skype 4.8 for iPhone and iPad
-  url: http://blogs.skype.com/2013/06/04/skype-4-8-for-iphone-and-ipad/
-  domain: blogs.skype.com
-  image: ""
-- curated_id: d2c051e96bb483ae7b4fc66529f2ac3e
-  item_date: "2013-06-28 00:00:00"
-  title: Skype 4.9 for iPhone and iPad
-  url: http://blogs.skype.com/2013/06/28/skype-for-iphone-4-9/
-  domain: blogs.skype.com
-  image: ""
-- curated_id: 6d8cdf2ac32f0ccc83fb423dd4a6222b
-  item_date: "2013-07-05 00:00:00"
-  title: ePortal Planned Maintenance Notification
-  url: http://www.ebridgeconnections.com/blog/eportal-planned-maintenance-notification/
-  domain: www.ebridgeconnections.com
-  image: ""
-- curated_id: c5ab22177db7217aa6001061b544cb9c
-  item_date: "2013-07-10 00:00:00"
-  title: 'Skype for Android 4.0 Update: We Heard You'
-  url: http://blogs.skype.com/2013/07/10/skype-for-android-4-0-update-we-heard-you/
-  domain: blogs.skype.com
-  image: ""
-- curated_id: 539c5d6424c61fc10b65834276a684b1
-  item_date: "2013-08-12 00:00:00"
-  title: Skype for iPhone and iPad, Version 4.10
-  url: http://blogs.skype.com/2013/08/12/skype-for-iphone-and-ipad-version-4-10/
-  domain: blogs.skype.com
-  image: ""
-- curated_id: 7c1369e4ee97b4fd5d17a348aab726cb
-  item_date: "2013-08-14 00:00:00"
-  title: StatusPage Add-On in Public Beta
-  url: https://blog.heroku.com/statuspage-addon-in-public-beta
-  domain: blog.heroku.com
-  image: ""
-- curated_id: 99fdde8aa654e15bb4a616aa46dbfe63
-  item_date: "2013-09-04 00:00:00"
-  title: 'Skype 2.10 for Windows Phone 8: now with Video Messaging'
-  url: http://blogs.skype.com/2013/09/04/skype-2-10-for-windows-phone-8-now-with-video-messaging/
-  domain: blogs.skype.com
-  image: ""
-- curated_id: f9d6edd40790705ecc53dd3ca2413d7f
-  item_date: "2013-09-18 00:00:00"
-  title: Skype for iPhone and iPad, version 4.12
-  url: http://blogs.skype.com/2013/09/18/skype-for-iphone-and-ipad-version-4-12/
-  domain: blogs.skype.com
-  image: ""
-- curated_id: b21d54a9a1c1013206bf0cdc7fc2664e
-  item_date: "2013-10-01 00:00:00"
-  title: Skype for Windows Phone 8 ? version 2.11
-  url: http://blogs.skype.com/2013/10/01/skype-for-windows-phone-8-version-2-11/
-  domain: blogs.skype.com
-  image: ""
-- curated_id: 0b276b147fea276fa351ac2551263fe9
-  item_date: "2013-10-23 00:00:00"
-  title: How to integrate Nicereply with Harvest
-  url: http://www.nicereply.com/blog/how-to-integrate-nicereply-with-harvest/
-  domain: www.nicereply.com
-  image: ""
-- curated_id: 03fa712a6e5d00c1225749213e1449a5
-  item_date: "2013-11-06 00:00:00"
-  title: Feature evolution and support for the Skype Desktop API
-  url: http://blogs.skype.com/2013/11/06/feature-evolution-and-support-for-the-skype-desktop-api/
-  domain: blogs.skype.com
-  image: ""
-- curated_id: 9cd6eaafef83fb4ba929c0cd257c3634
-  item_date: "2013-11-19 00:00:00"
-  title: REST API SSL certificate updates
-  url: https://dev.twitter.com/blog/rest-api-ssl-certificate-updates
-  domain: dev.twitter.com
-  image: ""
-- curated_id: 52a0ae788befc5b999312f00b7a6bf87
-  item_date: "2013-12-10 00:00:00"
-  title: Skype for Windows Phone 8 ? version 2.13
-  url: http://blogs.skype.com/2013/12/10/skype-for-windows-phone-8-version-2-13/
-  domain: blogs.skype.com
-  image: ""
-- curated_id: e3d2f63983ca43278577b32053cd9284
-  item_date: "2013-12-18 00:00:00"
-  title: Skype for Mac 6.12 ? Improved Stability and Performance
-  url: http://blogs.skype.com/2013/12/18/skype-for-mac-6-12-improved-stability-and-performance/
-  domain: blogs.skype.com
-  image: ""
-- curated_id: 96e97749cc5e664f4344fc16c0592748
-  item_date: "2014-06-05 00:00:00"
-  title: How to integrate Nicereply with Salesforce
-  url: http://www.nicereply.com/blog/how-to-integrate-nicereply-with-salesforce/
-  domain: www.nicereply.com
-  image: ""
-- curated_id: 31b4dfe74d3e0060fbf88751827a7f02
-  item_date: "2014-06-07 00:00:00"
-  title: Server and API optimisation updates
-  url: http://quickblox.com/blog/2014/06/server-and-api-optimisation-updates/
-  domain: quickblox.com
-  image: ""
-- curated_id: b0bb015091ca09c58e13eb8f13bee588
-  item_date: "2014-07-25 00:00:00"
-  title: 'Pro tip for embedding Tweets: use the oEmbed API endpoint'
-  url: https://blog.twitter.com/2014/pro-tip-for-embedding-tweets-use-the-oembed-api-endpoint
-  domain: blog.twitter.com
-  image: ""
-- curated_id: dd1adc0b84c352a715ddf2694a7ce7c6
-  item_date: "2014-07-30 00:00:00"
-  title: 'Continuing our fight for more #transparency'
-  url: https://blog.twitter.com/2014/continuing-our-fight-for-more-transparency
-  domain: blog.twitter.com
-  image: ""
-- curated_id: 4bbea1c55cd789467dc079ce37bf078e
-  item_date: "2014-08-05 00:00:00"
-  title: Rendering Tweets with AngularJS and Node.js
-  url: https://blog.twitter.com/2014/rendering-tweets-with-angularjs-and-nodejs
-  domain: blog.twitter.com
-  image: ""
 - curated_id: af042760c63dfe4ac185a0a91f0ff1a1
   item_date: "2015-02-20 00:00:00"
   title: WebRTC Platform as a Service (PaaS) Explained in Plain Language
@@ -295,5 +72,54 @@
     maintenance. Go to bed!'
   url: https://twitter.com/Pinboard/statuses/777066694720131072
   domain: twitter.com
+  image: ""
+- curated_id: 8bf9631f43f02e6b18e2a8eca69131bc
+  item_date: "2016-12-19 00:00:00"
+  title: Vendors should stop pedalling digital transformation fairy tales
+  url: https://disruptiveviews.com/vendors-digital-transformation-fairy-tales/
+  domain: disruptiveviews.com
+  image: ""
+- curated_id: d52f97e88c5778143ed48f3d32fa6760
+  item_date: "2016-12-19 00:00:00"
+  title: "Expanding the AWS Blog Team \u2013 Welcome Ana, Tina, Tara, and the Localization
+    Team"
+  url: https://aws.amazon.com/blogs/aws/expanding-the-aws-blog-team-welcome-ana-tina-tara-and-the-localization-team/
+  domain: aws.amazon.com
+  image: ""
+- curated_id: a6f806f0d053ddcdea6712ee24f2fac0
+  item_date: "2017-02-15 00:00:00"
+  title: Lessons learned from scheduled maintenance 8th February 2017
+  url: https://blog.opencorporates.com/2017/02/15/lessons-learned-from-scheduled-maintenance-8th-february-2017/
+  domain: blog.opencorporates.com
+  image: ""
+- curated_id: e08b36e87da0dcc07daf0f79bef560d9
+  item_date: "2017-02-23 14:42:02"
+  title: Introducing the new Management Tools Blog!
+  url: https://aws.amazon.com/blogs/mt/
+  domain: aws.amazon.com
+  image: ""
+- curated_id: 7eee99524f29a982cf82943ac91206b2
+  item_date: "2017-04-11 00:00:00"
+  title: Announcing the new Community Writers Program
+  url: https://about.gitlab.com/2017/04/11/announcing-the-new-community-writers-program/
+  domain: about.gitlab.com
+  image: ""
+- curated_id: 1d1708ad6c6399625c45c193cb976e32
+  item_date: "2017-04-12 00:00:00"
+  title: "New \u2013 AWS Management Tools Blog"
+  url: https://aws.amazon.com/blogs/aws/new-aws-management-tools-blog/
+  domain: aws.amazon.com
+  image: ""
+- curated_id: 5eea56f0f83e358ec34f9f3e0d9a211b
+  item_date: "2017-04-28 00:00:00"
+  title: "Codeship\u2019s Slack Integration"
+  url: https://blog.codeship.com/codeships-slack-integration/
+  domain: blog.codeship.com
+  image: ""
+- curated_id: df2721556c9635e5fabcadedeaddea1a
+  item_date: "2017-05-05 00:00:00"
+  title: Thomson Reuters Desktop Improves its Communications Capability
+  url: http://www.communicationsapplications.com/topics/communicationsapplications/articles/431783-thomson-reuters-desktop-improves-its-communications-capability.htm
+  domain: www.communicationsapplications.com
   image: ""
 ...
