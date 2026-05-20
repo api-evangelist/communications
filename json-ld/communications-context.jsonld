@@ -1,0 +1,106 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "comms": "https://api-evangelist.github.io/communications/schema/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcat": "https://www.w3.org/ns/dcat#",
+
+    "Message": "schema:Message",
+    "DeliveryReceipt": "comms:DeliveryReceipt",
+    "Recipient": "schema:ContactPoint",
+    "Call": "comms:Call",
+
+    "id": "schema:identifier",
+    "name": "schema:name",
+    "description": "schema:description",
+    "provider": "schema:provider",
+
+    "channel": {
+      "@id": "comms:channel",
+      "@type": "xsd:string"
+    },
+    "direction": {
+      "@id": "comms:direction",
+      "@type": "xsd:string"
+    },
+    "from": {
+      "@id": "schema:sender",
+      "@type": "xsd:string"
+    },
+    "to": {
+      "@id": "schema:recipient",
+      "@type": "xsd:string"
+    },
+    "subject": "schema:about",
+    "body": "schema:text",
+    "html": {
+      "@id": "comms:html",
+      "@type": "xsd:string"
+    },
+    "template_id": {
+      "@id": "comms:template_id",
+      "@type": "xsd:string"
+    },
+    "template_data": {
+      "@id": "comms:template_data"
+    },
+    "media_urls": {
+      "@id": "schema:associatedMedia",
+      "@container": "@set",
+      "@type": "@id"
+    },
+    "status": {
+      "@id": "comms:status",
+      "@type": "xsd:string"
+    },
+    "event": {
+      "@id": "comms:event",
+      "@type": "xsd:string"
+    },
+    "message_id": {
+      "@id": "comms:message_id",
+      "@type": "xsd:string"
+    },
+    "recipient": {
+      "@id": "schema:recipient",
+      "@type": "xsd:string"
+    },
+    "created_at": {
+      "@id": "dcterms:created",
+      "@type": "xsd:dateTime"
+    },
+    "sent_at": {
+      "@id": "comms:sent_at",
+      "@type": "xsd:dateTime"
+    },
+    "occurred_at": {
+      "@id": "comms:occurred_at",
+      "@type": "xsd:dateTime"
+    },
+    "user_agent": {
+      "@id": "comms:user_agent",
+      "@type": "xsd:string"
+    },
+    "ip_address": {
+      "@id": "comms:ip_address",
+      "@type": "xsd:string"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "error": {
+      "@id": "comms:error"
+    },
+    "metadata": {
+      "@id": "comms:metadata"
+    },
+    "tags": {
+      "@id": "dcat:keyword",
+      "@container": "@set",
+      "@type": "xsd:string"
+    }
+  }
+}

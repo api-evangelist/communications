@@ -1,0 +1,190 @@
+aid: communications
+name: Communications
+description: >-
+  An index and topic collection covering Communications Platform as a Service (CPaaS) and messaging-and-voice infrastructure APIs.
+  This network gathers providers offering programmable SMS, MMS, voice, video, transactional and marketing email, chat,
+  push notifications, in-app messaging, and deliverability services. It includes leading CPaaS platforms (Twilio, Vonage,
+  MessageBird/Bird, Sinch, Plivo, Bandwidth, Telnyx, Infobip), transactional email providers (SendGrid, Mailgun, Postmark,
+  Resend, SparkPost, Mailjet, MailerSend, Mailtrap), video and real-time platforms (Agora, Daily.co, LiveKit, Zoom, Dolby),
+  push and in-app messaging (OneSignal, Pusher, Ably, PubNub, Sendbird, Airship, CleverTap), and notification orchestration
+  layers (Courier, Knock, Customer.io, Braze, Iterable). It is distinct from the Bots topic, which covers conversational
+  scripting and chatbot frameworks.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- CPaaS
+- SMS
+- MMS
+- Voice
+- Email
+- Push Notifications
+- Video
+- Chat
+- Messaging
+- Deliverability
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/communications/refs/heads/main/apis.yml
+created: '2026-05-19'
+modified: '2026-05-19'
+specificationVersion: '0.19'
+apis: []
+network:
+- name: Ably
+  url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/apis.yml
+- name: Aircall
+  url: https://raw.githubusercontent.com/api-evangelist/aircall/refs/heads/main/apis.yml
+- name: Airship
+  url: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/apis.yml
+- name: Amazon Pinpoint
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/apis.yml
+- name: Amazon SES
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/apis.yml
+- name: Amazon SNS
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/apis.yml
+- name: api.video
+  url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/apis.yml
+- name: Bandwidth
+  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/apis.yml
+- name: Braze
+  url: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/apis.yml
+- name: CallRail
+  url: https://raw.githubusercontent.com/api-evangelist/callrail/refs/heads/main/apis.yml
+- name: CleverTap
+  url: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/apis.yml
+- name: ClickSend SMS
+  url: https://raw.githubusercontent.com/api-evangelist/clicksend-sms/refs/heads/main/apis.yml
+- name: Courier
+  url: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/apis.yml
+- name: Crisp
+  url: https://raw.githubusercontent.com/api-evangelist/crisp/refs/heads/main/apis.yml
+- name: Customer.io
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/apis.yml
+- name: Daily.co
+  url: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/apis.yml
+- name: Dialpad
+  url: https://raw.githubusercontent.com/api-evangelist/dialpad/refs/heads/main/apis.yml
+- name: Dolby
+  url: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/apis.yml
+- name: Iterable
+  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/apis.yml
+- name: JustCall
+  url: https://raw.githubusercontent.com/api-evangelist/justcall/refs/heads/main/apis.yml
+- name: Klaviyo
+  url: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/apis.yml
+- name: Knock
+  url: https://raw.githubusercontent.com/api-evangelist/knock/refs/heads/main/apis.yml
+- name: LiveKit
+  url: https://raw.githubusercontent.com/api-evangelist/livekit/refs/heads/main/apis.yml
+- name: Loops
+  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/apis.yml
+- name: Mailchimp
+  url: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/apis.yml
+- name: MailerLite
+  url: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/apis.yml
+- name: MailerSend
+  url: https://raw.githubusercontent.com/api-evangelist/mailersend/refs/heads/main/apis.yml
+- name: Mailgun
+  url: https://raw.githubusercontent.com/api-evangelist/mailgun/refs/heads/main/apis.yml
+- name: Mailjet
+  url: https://raw.githubusercontent.com/api-evangelist/mailjet/refs/heads/main/apis.yml
+- name: Mailtrap
+  url: https://raw.githubusercontent.com/api-evangelist/mailtrap/refs/heads/main/apis.yml
+- name: MessageBird
+  url: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/apis.yml
+- name: Mux
+  url: https://raw.githubusercontent.com/api-evangelist/mux/refs/heads/main/apis.yml
+- name: OneSignal
+  url: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/apis.yml
+- name: Plivo
+  url: https://raw.githubusercontent.com/api-evangelist/plivo/refs/heads/main/apis.yml
+- name: Postmark
+  url: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/apis.yml
+- name: PubNub
+  url: https://raw.githubusercontent.com/api-evangelist/pubnub/refs/heads/main/apis.yml
+- name: Pusher
+  url: https://raw.githubusercontent.com/api-evangelist/pusher/refs/heads/main/apis.yml
+- name: Resend
+  url: https://raw.githubusercontent.com/api-evangelist/resend/refs/heads/main/apis.yml
+- name: RingCentral
+  url: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/apis.yml
+- name: Sendbird
+  url: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/apis.yml
+- name: SendGrid
+  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/apis.yml
+- name: Sinch
+  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/apis.yml
+- name: Stream
+  url: https://raw.githubusercontent.com/api-evangelist/stream-io/refs/heads/main/apis.yml
+- name: Telesign
+  url: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/apis.yml
+- name: Telnyx
+  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/apis.yml
+- name: Twilio
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/apis.yml
+- name: Vonage
+  url: https://raw.githubusercontent.com/api-evangelist/vonage/refs/heads/main/apis.yml
+- name: Zoom
+  url: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/apis.yml
+common:
+- type: Portal
+  url: https://apievangelist.com
+- type: GitHubOrganization
+  url: https://github.com/api-evangelist
+- type: Features
+  data:
+  - name: Programmable SMS, MMS, and Voice
+    description: CPaaS providers expose programmable APIs for sending and receiving SMS and MMS messages, placing and routing voice calls, and managing phone number inventory across the global PSTN.
+  - name: Transactional and Marketing Email
+    description: Email APIs handle high-volume transactional sends, marketing campaigns, template rendering, list management, and deliverability monitoring through ESP infrastructure.
+  - name: Real-Time Video and Audio
+    description: Video and real-time platforms expose APIs and SDKs for embedding live video calls, broadcasts, conferences, and low-latency audio rooms into applications.
+  - name: Push Notifications and In-App Messaging
+    description: Push providers deliver native iOS and Android push notifications, web push, and in-app messages at scale across FCM, APNs, and proprietary delivery infrastructure.
+  - name: Realtime Chat and Pub/Sub
+    description: Realtime APIs provide WebSocket-based pub/sub channels, chat rooms, presence, and message history for collaborative and social applications.
+  - name: Notification Orchestration and Multi-Channel Delivery
+    description: Orchestration platforms unify SMS, email, push, chat, and in-app channels behind a single API with templating, preference management, and routing logic.
+  - name: Deliverability and Reputation Management
+    description: Deliverability tooling covers IP warmup, SPF/DKIM/DMARC, bounce and spam handling, suppression lists, and engagement-based sender reputation analytics.
+  - name: Number Provisioning and Verification
+    description: Communications APIs manage phone number purchase, porting, regulatory compliance, and verification flows like one-time passwords and silent network auth.
+- type: UseCases
+  data:
+  - name: Two-Factor Authentication and OTP Delivery
+    description: Applications use SMS, voice, and email APIs to deliver one-time passcodes and verification messages for login, signup, and high-risk action confirmation.
+  - name: Transactional Notifications
+    description: Platforms send order confirmations, shipping updates, password resets, and account alerts through email, SMS, and push APIs as part of core product workflows.
+  - name: Customer Engagement Campaigns
+    description: Marketing teams orchestrate multi-channel email, SMS, and push campaigns using providers like Braze, Iterable, Customer.io, and Klaviyo to drive retention and lifecycle messaging.
+  - name: Live Video and Audio Embeds
+    description: Telehealth, education, and collaboration apps embed branded live video and audio experiences using Daily.co, Agora, LiveKit, Zoom SDKs, and Dolby.
+  - name: Contact Center and Programmable Voice
+    description: Support and sales teams build programmable IVRs, click-to-call, call tracking, and conversational voice flows on Twilio, Vonage, Dialpad, and RingCentral.
+  - name: Realtime Chat and Social Features
+    description: Apps add direct messaging, group chat, presence, and live commenting using Sendbird, Stream, PubNub, Ably, and Pusher.
+  - name: Operational and Incident Alerting
+    description: Engineering and SRE teams page on-call staff and broadcast incident status via SMS, voice, push, and email through Knock, Courier, and CPaaS providers.
+- type: Integrations
+  data:
+  - name: Twilio
+    description: Leading CPaaS provider offering programmable SMS, MMS, voice, video, email (via SendGrid), and verification APIs at global scale.
+  - name: Vonage
+    description: CPaaS platform covering SMS, voice, video, verify, and conversation APIs across messaging channels including WhatsApp and Viber.
+  - name: SendGrid
+    description: Transactional and marketing email API owned by Twilio, handling high-volume sends, templates, and deliverability.
+  - name: MessageBird
+    description: Omnichannel CPaaS provider (Bird) offering SMS, voice, email, WhatsApp, and conversational messaging APIs across global carriers.
+  - name: Sinch
+    description: Global CPaaS platform delivering SMS, voice, email (Mailgun, Mailjet), verification, and conversational messaging APIs.
+  - name: OneSignal
+    description: Push notification, in-app messaging, email, and SMS platform with a unified messaging API used by mobile and web applications.
+  - name: Sendbird
+    description: In-app chat, messaging, and calls API powering customer support and social experiences inside mobile and web applications.
+  - name: Daily.co
+    description: WebRTC-based video and audio API for embedding live calls, broadcasts, and recording into web and mobile applications.
+  - name: Mailgun
+    description: Transactional email and email validation API focused on deliverability for developers and high-volume senders.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+humanURL: https://apievangelist.com

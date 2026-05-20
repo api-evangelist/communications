@@ -1,0 +1,21 @@
+{
+  "id": "SM9b3f1a7c2e5d4a1f80a1c0e4b6d2f8a1",
+  "channel": "sms",
+  "direction": "outbound",
+  "from": "+15555550100",
+  "to": "+15555550199",
+  "body": "Your verification code is 482913. It expires in 10 minutes.",
+  "template_id": "tpl_verify_otp_v2",
+  "template_data": {
+    "code": "482913",
+    "expires_in_minutes": 10
+  },
+  "provider": "twilio",
+  "status": "delivered",
+  "created_at": "2026-05-19T14:00:00Z",
+  "sent_at": "2026-05-19T14:00:01Z",
+  "metadata": {
+    "campaign": "signup-otp",
+    "tenant_id": "acme"
+  }
+}

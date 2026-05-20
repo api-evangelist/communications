@@ -1,0 +1,397 @@
+vocabulary: "1.0.0"
+
+info:
+  provider: Communications
+  description: Vocabulary for the Communications topic, covering CPaaS, transactional and marketing email, push and in-app messaging, realtime chat, video, and multi-channel notification orchestration.
+  created: '2026-05-19'
+  modified: '2026-05-19'
+
+operational:
+  apis:
+    - name: Twilio
+      namespace: twilio
+      status: active
+    - name: Vonage
+      namespace: vonage
+      status: active
+    - name: SendGrid
+      namespace: sendgrid
+      status: active
+    - name: MessageBird
+      namespace: messagebird
+      status: active
+    - name: Sinch
+      namespace: sinch
+      status: active
+    - name: OneSignal
+      namespace: onesignal
+      status: active
+    - name: Sendbird
+      namespace: sendbird
+      status: active
+    - name: Daily.co
+      namespace: daily-co
+      status: active
+    - name: Mailgun
+      namespace: mailgun
+      status: active
+    - name: Courier
+      namespace: courier
+      status: active
+
+  resources:
+    - name: messages
+      description: Outbound and inbound messages across SMS, MMS, voice, email, push, in-app, and chat channels
+      actions:
+        - send
+        - get
+        - list
+        - cancel
+    - name: calls
+      description: Programmable voice calls placed or received through a CPaaS provider
+      actions:
+        - create
+        - get
+        - list
+        - update
+        - hangup
+    - name: rooms
+      description: Realtime video and audio rooms hosted by a provider for live calls and broadcasts
+      actions:
+        - create
+        - get
+        - list
+        - delete
+    - name: phone-numbers
+      description: Phone number inventory available for SMS, MMS, and voice traffic
+      actions:
+        - search
+        - purchase
+        - release
+        - list
+    - name: templates
+      description: Server-side message templates for email, SMS, push, and multi-channel notifications
+      actions:
+        - create
+        - get
+        - list
+        - update
+        - delete
+    - name: subscribers
+      description: Recipient profiles and channel preferences for push, email, and in-app messaging
+      actions:
+        - create
+        - get
+        - update
+        - delete
+        - list
+    - name: campaigns
+      description: Scheduled multi-channel marketing or lifecycle messaging campaigns
+      actions:
+        - create
+        - get
+        - list
+        - update
+        - send
+        - cancel
+    - name: delivery-receipts
+      description: Provider-emitted events describing message delivery, engagement, or failure
+      actions:
+        - list
+        - get
+    - name: webhooks
+      description: HTTP callbacks for inbound messages and delivery events
+      actions:
+        - create
+        - list
+        - delete
+
+  actions:
+    - name: send
+      description: Send a message on a channel
+      httpMethod: POST
+      pattern: write
+    - name: create
+      description: Create a resource (call, room, template, campaign)
+      httpMethod: POST
+      pattern: write
+    - name: get
+      description: Retrieve a single resource
+      httpMethod: GET
+      pattern: read
+    - name: list
+      description: Enumerate resources
+      httpMethod: GET
+      pattern: read
+    - name: search
+      description: Search inventory or history
+      httpMethod: GET
+      pattern: query
+    - name: update
+      description: Update an existing resource
+      httpMethod: PUT
+      pattern: write
+    - name: cancel
+      description: Cancel a queued or scheduled message or campaign
+      httpMethod: POST
+      pattern: write
+    - name: hangup
+      description: End an in-progress voice call
+      httpMethod: POST
+      pattern: write
+    - name: purchase
+      description: Buy a phone number
+      httpMethod: POST
+      pattern: write
+    - name: release
+      description: Release a phone number back to the carrier pool
+      httpMethod: DELETE
+      pattern: destructive
+    - name: delete
+      description: Remove a resource
+      httpMethod: DELETE
+      pattern: destructive
+
+  schemas:
+    core:
+      - name: Message
+        description: A message sent or received over any communications channel
+        properties:
+          - id
+          - channel
+          - direction
+          - from
+          - to
+          - subject
+          - body
+          - template_id
+          - provider
+          - status
+          - created_at
+      - name: DeliveryReceipt
+        description: A delivery, engagement, or failure event emitted by a provider
+        properties:
+          - id
+          - message_id
+          - provider
+          - channel
+          - event
+          - recipient
+          - occurred_at
+          - error
+
+  enums:
+    channels:
+      - sms
+      - mms
+      - voice
+      - email
+      - push
+      - in-app
+      - chat
+      - whatsapp
+      - rcs
+      - viber
+      - video
+    message_statuses:
+      - queued
+      - sending
+      - sent
+      - delivered
+      - read
+      - failed
+      - undelivered
+      - bounced
+      - spam
+    delivery_events:
+      - queued
+      - sent
+      - delivered
+      - opened
+      - clicked
+      - read
+      - bounced
+      - complained
+      - spam
+      - unsubscribed
+      - failed
+      - undelivered
+      - dropped
+    directions:
+      - outbound
+      - inbound
+
+capability:
+  workflows:
+    - name: OTP Verification
+      description: Generate and deliver a one-time passcode over SMS, voice, or email and verify the user's response
+      apis:
+        - twilio
+        - vonage
+        - messagebird
+        - sinch
+        - telesign
+      personas:
+        - Application Developer
+      domains:
+        - CPaaS
+        - Verification
+    - name: Transactional Email Delivery
+      description: Send transactional email (receipts, password resets, alerts) through an ESP with deliverability tracking
+      apis:
+        - sendgrid
+        - mailgun
+        - postmark
+        - resend
+      personas:
+        - Application Developer
+      domains:
+        - Email
+    - name: Multi-Channel Lifecycle Campaign
+      description: Orchestrate email, SMS, push, and in-app messages across the customer lifecycle with branching logic
+      apis:
+        - braze
+        - iterable
+        - customer-io
+        - klaviyo
+      personas:
+        - Lifecycle Marketer
+      domains:
+        - Customer Engagement
+    - name: Live Video Embed
+      description: Host a branded live video or audio room inside a web or mobile application
+      apis:
+        - daily-co
+        - livekit
+        - zoom
+        - dolby
+      personas:
+        - Application Developer
+      domains:
+        - Video
+    - name: Push Notification Broadcast
+      description: Send targeted or broadcast push notifications and in-app messages to mobile and web audiences
+      apis:
+        - onesignal
+        - airship
+        - clevertap
+        - amazon-pinpoint
+      personas:
+        - Mobile Engineer
+      domains:
+        - Push
+    - name: Realtime Chat and Presence
+      description: Embed direct and group chat, presence, and message history into an application
+      apis:
+        - sendbird
+        - stream-io
+        - pubnub
+        - ably
+        - pusher
+      personas:
+        - Application Developer
+      domains:
+        - Chat
+    - name: Notification Orchestration
+      description: Route a single logical notification across email, SMS, push, and chat channels with preferences and fallbacks
+      apis:
+        - courier
+        - knock
+      personas:
+        - Platform Engineer
+      domains:
+        - Notification Orchestration
+
+  personas:
+    - id: application-developer
+      name: Application Developer
+      description: Engineers integrating communications APIs into product features (signup, verification, alerts, chat, video)
+      workflows:
+        - OTP Verification
+        - Transactional Email Delivery
+        - Live Video Embed
+        - Realtime Chat and Presence
+    - id: lifecycle-marketer
+      name: Lifecycle Marketer
+      description: Marketers running multi-channel onboarding, retention, and re-engagement campaigns
+      workflows:
+        - Multi-Channel Lifecycle Campaign
+    - id: mobile-engineer
+      name: Mobile Engineer
+      description: Engineers shipping push notifications and in-app messages on iOS and Android
+      workflows:
+        - Push Notification Broadcast
+    - id: platform-engineer
+      name: Platform Engineer
+      description: Engineers building shared notification platforms and preference systems for an organization
+      workflows:
+        - Notification Orchestration
+
+  domains:
+    - name: CPaaS
+      description: Programmable SMS, MMS, voice, and verification infrastructure
+    - name: Email
+      description: Transactional and marketing email APIs and deliverability
+    - name: Push
+      description: Mobile and web push notifications and in-app messaging
+    - name: Chat
+      description: Realtime chat, presence, pub/sub, and messaging
+    - name: Video
+      description: Programmable real-time audio and video rooms and broadcasts
+    - name: Verification
+      description: OTP, two-factor, and identity verification flows
+    - name: Customer Engagement
+      description: Multi-channel lifecycle and marketing messaging
+    - name: Notification Orchestration
+      description: Cross-channel notification routing, templating, and preference management
+
+crossReference:
+  - resource: messages
+    operations:
+      - send
+      - list
+      - get
+    workflows:
+      - OTP Verification
+      - Transactional Email Delivery
+      - Push Notification Broadcast
+    personas:
+      - Application Developer
+      - Mobile Engineer
+  - resource: calls
+    operations:
+      - create
+      - get
+      - hangup
+    workflows:
+      - OTP Verification
+    personas:
+      - Application Developer
+  - resource: rooms
+    operations:
+      - create
+      - list
+      - delete
+    workflows:
+      - Live Video Embed
+    personas:
+      - Application Developer
+  - resource: campaigns
+    operations:
+      - create
+      - send
+      - cancel
+    workflows:
+      - Multi-Channel Lifecycle Campaign
+    personas:
+      - Lifecycle Marketer
+  - resource: delivery-receipts
+    operations:
+      - list
+      - get
+    workflows:
+      - Transactional Email Delivery
+      - Notification Orchestration
+    personas:
+      - Application Developer
+      - Platform Engineer

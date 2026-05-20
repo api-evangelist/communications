@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/communications/refs/heads/main/json-structure/communications-delivery-receipt-structure.json",
+  "name": "DeliveryReceipt",
+  "description": "Represents a delivery, engagement, or failure event emitted by a communications provider for a previously sent message across any channel.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier of the delivery receipt event.",
+      "example": "evt_5f3a2c9b1d8e4f6a"
+    },
+    "message_id": {
+      "type": "string",
+      "description": "Identifier of the message this receipt refers to.",
+      "example": "SM9b3f1a7c2e5d4a1f80a1c0e4b6d2f8a1"
+    },
+    "provider": {
+      "type": "string",
+      "description": "Provider that emitted the receipt.",
+      "example": "sendgrid"
+    },
+    "channel": {
+      "type": "string",
+      "description": "Delivery channel for the original message.",
+      "enum": [
+        "sms",
+        "mms",
+        "voice",
+        "email",
+        "push",
+        "in-app",
+        "chat",
+        "whatsapp",
+        "rcs",
+        "viber",
+        "video"
+      ],
+      "example": "email"
+    },
+    "event": {
+      "type": "string",
+      "description": "Event type reported by the provider.",
+      "enum": [
+        "queued",
+        "sent",
+        "delivered",
+        "opened",
+        "clicked",
+        "read",
+        "bounced",
+        "complained",
+        "spam",
+        "unsubscribed",
+        "failed",
+        "undelivered",
+        "dropped"
+      ],
+      "example": "delivered"
+    },
+    "recipient": {
+      "type": "string",
+      "description": "Recipient address that received (or failed to receive) the message.",
+      "example": "user@example.com"
+    },
+    "occurred_at": {
+      "type": "datetime",
+      "description": "Timestamp when the provider observed the event.",
+      "example": "2026-05-19T14:00:05Z"
+    },
+    "error": {
+      "type": "object",
+      "description": "Error information when the event indicates a failure.",
+      "properties": {
+        "code": {
+          "type": "string",
+          "description": "Provider-specific error or reason code.",
+          "example": "30007"
+        },
+        "message": {
+          "type": "string",
+          "description": "Human-readable error description.",
+          "example": "Carrier filtered message as spam."
+        }
+      }
+    },
+    "user_agent": {
+      "type": "string",
+      "description": "User agent reported with an engagement event such as an email open or click.",
+      "example": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X)"
+    },
+    "ip_address": {
+      "type": "string",
+      "description": "IP address associated with an engagement event.",
+      "example": "203.0.113.42"
+    },
+    "url": {
+      "type": "uri",
+      "description": "URL associated with a click event.",
+      "example": "https://example.com/verify"
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Free-form metadata propagated from the original send (campaign id, tenant id, etc.).",
+      "additionalProperties": true
+    }
+  },
+  "required": [
+    "message_id",
+    "provider",
+    "channel",
+    "event",
+    "occurred_at"
+  ]
+}

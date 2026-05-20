@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/communications/refs/heads/main/json-schema/communications-message-schema.json",
+  "title": "Message",
+  "description": "Represents an outbound or inbound communications message across any channel (SMS, MMS, voice, email, push, chat, in-app) delivered through a CPaaS, ESP, push, or realtime messaging provider.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Provider-assigned unique identifier for the message.",
+      "example": "SM9b3f1a7c2e5d4a1f80a1c0e4b6d2f8a1"
+    },
+    "channel": {
+      "type": "string",
+      "description": "Delivery channel for the message.",
+      "enum": ["sms", "mms", "voice", "email", "push", "in-app", "chat", "whatsapp", "rcs", "viber", "video"],
+      "example": "sms"
+    },
+    "direction": {
+      "type": "string",
+      "description": "Whether the message is being sent outbound or received inbound.",
+      "enum": ["outbound", "inbound"],
+      "example": "outbound"
+    },
+    "from": {
+      "type": "string",
+      "description": "Sender address: phone number (E.164), email address, push token, or channel-specific identifier.",
+      "example": "+15555550100"
+    },
+    "to": {
+      "type": "string",
+      "description": "Recipient address: phone number (E.164), email address, push token, user id, or channel-specific identifier.",
+      "example": "+15555550199"
+    },
+    "subject": {
+      "type": "string",
+      "description": "Subject line, used primarily for email and chat threads.",
+      "example": "Your verification code"
+    },
+    "body": {
+      "type": "string",
+      "description": "Text body of the message.",
+      "example": "Your verification code is 482913. It expires in 10 minutes."
+    },
+    "html": {
+      "type": "string",
+      "description": "HTML body of the message, used primarily for email.",
+      "example": "<p>Your verification code is <strong>482913</strong>.</p>"
+    },
+    "template_id": {
+      "type": "string",
+      "description": "Identifier of a server-side template used to render the message.",
+      "example": "tpl_verify_otp_v2"
+    },
+    "template_data": {
+      "type": "object",
+      "description": "Variables passed into a server-side template.",
+      "additionalProperties": true,
+      "example": {
+        "code": "482913",
+        "expires_in_minutes": 10
+      }
+    },
+    "media_urls": {
+      "type": "array",
+      "description": "URLs of media attachments such as MMS images or push notification images.",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
+    },
+    "provider": {
+      "type": "string",
+      "description": "Communications provider handling delivery.",
+      "example": "twilio"
+    },
+    "status": {
+      "type": "string",
+      "description": "Lifecycle status of the message.",
+      "enum": ["queued", "sending", "sent", "delivered", "read", "failed", "undelivered", "bounced", "spam"],
+      "example": "delivered"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp when the message was created.",
+      "example": "2026-05-19T14:00:00Z"
+    },
+    "sent_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp when the message was handed off to the carrier or downstream channel.",
+      "example": "2026-05-19T14:00:01Z"
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Free-form metadata or tags attached to the message for analytics, A/B testing, or workflow correlation.",
+      "additionalProperties": true
+    }
+  },
+  "required": ["channel", "to", "provider"]
+}

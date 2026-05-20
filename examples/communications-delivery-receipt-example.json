@@ -1,0 +1,15 @@
+{
+  "id": "evt_5f3a2c9b1d8e4f6a",
+  "message_id": "SM9b3f1a7c2e5d4a1f80a1c0e4b6d2f8a1",
+  "provider": "sendgrid",
+  "channel": "email",
+  "event": "delivered",
+  "recipient": "user@example.com",
+  "occurred_at": "2026-05-19T14:00:05Z",
+  "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X)",
+  "ip_address": "203.0.113.42",
+  "metadata": {
+    "campaign": "signup-otp",
+    "tenant_id": "acme"
+  }
+}
