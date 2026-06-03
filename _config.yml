@@ -1,0 +1,26 @@
+title: Communications
+description: An index and topic collection covering Communications Platform as a Service
+  (CPaaS) and messaging-and-voice infrastructure APIs. This network gathers providers
+  offering programmable SMS, MMS, voice, video, transactional and marketing email,
+  chat, push notifications, in-app messaging, and deliverability services. It includes
+  leading CPaaS platforms (Twilio, Vonage, MessageBird/Bird, Sinch, Plivo, Bandwidth,
+  Telnyx, Infobip), transactional email providers (SendGrid, Mailgun, Postmark, Resend,
+  SparkPost, Mailjet, MailerSend, Mailtrap), video and real-time platforms (Agora,
+  Daily.co, LiveKit, Zoom, Dolby), push and in-app messaging (OneSignal, Pusher, Ably,
+  PubNub, Sendbird, Airship, CleverTap), and notification orchestration layers (Courier,
+  Knock, Customer.io, Braze, Iterable). It is distinct from the Bots topic, which
+  covers conversational scripting and chatbot frameworks.
+url: https://communications.apievangelist.com
+collections:
+  api_stories:
+    output: false
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+- Dockerfile
+- examples
+- json-ld
+- json-schema
+- json-structure
+- vocabulary
