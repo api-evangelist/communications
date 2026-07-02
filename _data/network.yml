@@ -1,0 +1,11 @@
+related:
+- name: Bots
+  url: https://bots.apievangelist.com
+  icon: https://bots.apievangelist.com/icon.png
+  description: An index and topic collection covering chatbots, conversational agents, and bot frameworks
+    across messaging, voice, and customer experience channels. Bots are scripted or…
+- name: Support
+  url: https://support.apievangelist.com
+  icon: https://support.apievangelist.com/icon.png
+  description: An index and topic collection covering customer support, help desk, ticketing, knowledge
+    base, and live chat APIs. Customer support platforms power the interfaces and back-office…
