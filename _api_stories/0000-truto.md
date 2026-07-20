@@ -1,7 +1,7 @@
 ---
-title: 'Connect Lucca to ChatGPT: Manage Employee Data & Org Structures via MCP'
-link: https://truto.one/blog/connect-lucca-to-chatgpt-manage-employee-data-and-org-structure/
-published: '2026-06-09'
+title: 'Connect Instagram to ChatGPT: Automate Media Publishing via MCP'
+link: https://truto.one/blog/connect-instagram-to-chatgpt-automate-media-publishing-and-posts/
+published: '2026-07-17'
 provider: truto
 repo: https://github.com/api-evangelist/truto
 domain: truto.one
