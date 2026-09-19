@@ -1,7 +1,7 @@
 ---
-title: 'Connect Shopify to ChatGPT: Manage Orders, Products & Customers via MCP'
-link: https://truto.one/blog/connect-shopify-to-chatgpt-manage-orders-products-and-customers/
-published: '2026-08-04'
+title: 'Connect Zammad to ChatGPT: Automate Support and Knowledge Bases via MCP'
+link: https://truto.one/blog/connect-zammad-to-chatgpt-automate-support-and-knowledge-bases/
+published: '2026-08-10'
 provider: truto
 repo: https://github.com/api-evangelist/truto
 domain: truto.one

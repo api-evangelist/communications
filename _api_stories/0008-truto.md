@@ -1,7 +1,7 @@
 ---
-title: 'Build a Production Strapi MCP Server for ChatGPT: Media & Content'
-link: https://truto.one/blog/build-a-production-strapi-mcp-server-for-chatgpt-media-content/
-published: '2026-08-19'
+title: 'Connect DocuSign to ChatGPT: Manage Envelope Lifecycles via MCP Schemas'
+link: https://truto.one/blog/connect-docusign-to-chatgpt-manage-envelope-lifecycles-via-mcp-schemas/
+published: '2026-08-24'
 provider: truto
 repo: https://github.com/api-evangelist/truto
 domain: truto.one
