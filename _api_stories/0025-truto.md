@@ -1,7 +1,7 @@
 ---
-title: 'Connect Instagram to ChatGPT: Automate Media Publishing via MCP'
-link: https://truto.one/blog/connect-instagram-to-chatgpt-automate-media-publishing-and-posts/
-published: '2026-07-17'
+title: 'Connect Shopify to ChatGPT: Manage Orders, Products & Customers via MCP'
+link: https://truto.one/blog/connect-shopify-to-chatgpt-manage-orders-products-and-customers/
+published: '2026-08-04'
 provider: truto
 repo: https://github.com/api-evangelist/truto
 domain: truto.one
