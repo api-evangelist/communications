@@ -1,5 +1,6 @@
 aid: communications
 name: Communications
+kind: topic
 description: >-
   An index and topic collection covering Communications Platform as a Service (CPaaS) and messaging-and-voice infrastructure APIs.
   This network gathers providers offering programmable SMS, MMS, voice, video, transactional and marketing email, chat,
