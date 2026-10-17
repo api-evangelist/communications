@@ -1,7 +1,7 @@
 ---
-title: 'Connect Instagram to ChatGPT: Automate Media Publishing via MCP'
-link: https://truto.one/blog/connect-instagram-to-chatgpt-automate-media-publishing-and-posts/
-published: '2026-07-17'
+title: 'Connect Zammad to ChatGPT: Automate Support and Knowledge Bases via MCP'
+link: https://truto.one/blog/connect-zammad-to-chatgpt-automate-support-and-knowledge-bases/
+published: '2026-08-10'
 provider: truto
 repo: https://github.com/api-evangelist/truto
 domain: truto.one
