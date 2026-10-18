@@ -1,7 +1,7 @@
 ---
-title: 'Connect Zammad to ChatGPT: Automate Support and Knowledge Bases via MCP'
-link: https://truto.one/blog/connect-zammad-to-chatgpt-automate-support-and-knowledge-bases/
-published: '2026-08-10'
+title: 'Connect DocuSign to ChatGPT: Manage Envelope Lifecycles via MCP Schemas'
+link: https://truto.one/blog/connect-docusign-to-chatgpt-manage-envelope-lifecycles-via-mcp-schemas/
+published: '2026-08-24'
 provider: truto
 repo: https://github.com/api-evangelist/truto
 domain: truto.one

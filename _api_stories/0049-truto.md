@@ -1,7 +1,7 @@
 ---
-title: 'Connect Vapi to ChatGPT: Manage Assistants, Squads, and Calls via MCP'
-link: https://truto.one/blog/connect-vapi-to-chatgpt-manage-assistants-squads-and-calls/
-published: '2026-06-23'
+title: 'Connect Inngest to ChatGPT: Control Functions & Runs via MCP'
+link: https://truto.one/blog/connect-inngest-to-chatgpt-control-functions-runs-and-observability/
+published: '2026-07-25'
 provider: truto
 repo: https://github.com/api-evangelist/truto
 domain: truto.one
