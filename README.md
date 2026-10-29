@@ -1,142 +1,97 @@
-# Communications (communications)
+# Communications
+
+<!-- API-EVANGELIST-PROVENANCE:BEGIN -->
+> ### About this repository
+>
+> **This is not our API.** This repository is an independent, third-party profile of a company's
+> **publicly available** API surface, maintained by [API Evangelist](https://apievangelist.com).
+> API Evangelist does not operate, host, resell, or support this company's APIs, and is not
+> affiliated with or endorsed by the company unless stated on the profile.
+>
+> **Where the information came from.** Everything here is assembled from material a member of the
+> public can reach with a browser and no credentials — the company's own website, developer portal
+> and documentation, the specifications it publishes for public use (OpenAPI, AsyncAPI, JSON Schema,
+> `apis.json`, `llms.txt` and similar), its public repositories, and its public status, pricing and
+> changelog pages. **Nothing here is obtained by breaching a system, defeating an access control, or
+> using credentials of any kind.**
+>
+> **The rating is an independent assessment.** The Kin Score and Agent Readiness rating are
+> independently calculated scores of a company's *public* API artifacts, produced by API Evangelist
+> against a published rubric. They are not certifications, endorsements, security assessments, or
+> audits, and they score published artifacts — not the quality, safety, or security of the software.
+>
+> **Corrections, re-scores, and removal are free.** No partnership, contract, or purchase is
+> required, and you do not need to justify the request.
+>
+> - **Something wrong?** Open an issue on this repository, or email
+>   [info@apievangelist.com](mailto:info@apievangelist.com).
+> - **Published something new?** Ask for a re-score and we will re-run the rating.
+> - **Want the listing taken down?** Say so and we will honor it. The profile is reduced to your
+>   company name, a factual description, and a link to your own site, and the company is recorded as
+>   **unrated** — never scored zero for having asked.
+>
+> **Response times.** Acknowledgement within **one business day**; removal or restriction within
+> **two business days**; corrections and re-scores within **five business days**.
+>
+> **Not from the company, and here with a question?** You are welcome here — we would rather be the
+> front line and point you the right way than have a good report go nowhere. What this repository
+> can answer is narrow, though, so it is worth knowing who you are actually looking for:
+>
+> - **A question about how the API works, an account, billing, or a bug in the service** — that is
+>   the company's own support, not us. We profile this API; we do not operate it and cannot see
+>   your account.
+> - **A bug in an open-source project we only catalog** — file it on that project's own repository.
+>   This has happened with a real and correct bug report that reached us instead of the people who
+>   could fix it, which helped nobody.
+> - **Anything about this listing itself** — the description, the tags, the rating, a missing or
+>   wrong artifact — is ours. Open an issue here.
+> - **Not sure, or something general about API Evangelist or APIs.io** — open an issue on the
+>   [APIs.io Inbox](https://github.com/api-search/inbox) and we will route it.
+>
+> **This repository contains no software, and we will never ask you to download anything.** There is
+> no build, release, installer, or binary here — only text and machine-readable API descriptions, so
+> there is nothing here that can be "corrupt" or need "repairing". Any issue, comment, or email
+> claiming otherwise and offering a download link is not from us and is hostile. Do not follow the
+> link; it is a lure. Report it to GitHub and, if you like, tell us at
+> [info@apievangelist.com](mailto:info@apievangelist.com) so we can take it down.
+>
+> **On a security or compliance team?** Email
+> [info@apievangelist.com](mailto:info@apievangelist.com) with *security* in the subject line and
+> you will get a person, not a form. We will tell you exactly which public URLs this profile was
+> built from so your team can see the same surface we did, and we will take the listing down on
+> request while you work through it.
+>
+> Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
+<!-- API-EVANGELIST-PROVENANCE:END -->
+
 An index and topic collection covering Communications Platform as a Service (CPaaS) and messaging-and-voice infrastructure APIs. This network gathers providers offering programmable SMS, MMS, voice, video, transactional and marketing email, chat, push notifications, in-app messaging, and deliverability services. It includes leading CPaaS platforms (Twilio, Vonage, MessageBird/Bird, Sinch, Plivo, Bandwidth, Telnyx, Infobip), transactional email providers (SendGrid, Mailgun, Postmark, Resend, SparkPost, Mailjet, MailerSend, Mailtrap), video and real-time platforms (Agora, Daily.co, LiveKit, Zoom, Dolby), push and in-app messaging (OneSignal, Pusher, Ably, PubNub, Sendbird, Airship, CleverTap), and notification orchestration layers (Courier, Knock, Customer.io, Braze, Iterable). It is distinct from the Bots topic, which covers conversational scripting and chatbot frameworks.
 
-**URL:** [https://apievangelist.com](https://apievangelist.com)
+**Areas:** CPaaS · SMS · MMS · Voice · Email · Push Notifications · Video · Chat · Messaging · Deliverability
 
-## Tags:
+## Communications on APIs.io
 
- - CPaaS, SMS, MMS, Voice, Email, Push Notifications, Video, Chat, Messaging, Deliverability
+Everything profiled for Communications is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/communications/](https://apis.io/providers/communications/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+## Where to find this API
 
-- **Created:** 2026-05-19
-- **Modified:** 2026-05-19
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-## Common Properties
+- [GitHub](https://github.com/api-evangelist)
 
-- [Portal](https://apievangelist.com)
-- [GitHubOrganization](https://github.com/api-evangelist)
-- [JSONSchema - Message Schema](https://raw.githubusercontent.com/api-evangelist/communications/refs/heads/main/json-schema/communications-message-schema.json)
-- [JSONSchema - Delivery Receipt Schema](https://raw.githubusercontent.com/api-evangelist/communications/refs/heads/main/json-schema/communications-delivery-receipt-schema.json)
-- [JSON-LD](https://raw.githubusercontent.com/api-evangelist/communications/refs/heads/main/json-ld/communications-context.jsonld)
-- [Vocabulary](https://raw.githubusercontent.com/api-evangelist/communications/refs/heads/main/vocabulary/communications-vocabulary.yaml)
+## API Evangelist rating
 
-## Features
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
 
-| Name | Description |
-|------|-------------|
-| Programmable SMS, MMS, and Voice | CPaaS providers expose programmable APIs for sending and receiving SMS and MMS messages, placing and routing voice calls, and managing phone number inventory across the global PSTN. |
-| Transactional and Marketing Email | Email APIs handle high-volume transactional sends, marketing campaigns, template rendering, list management, and deliverability monitoring through ESP infrastructure. |
-| Real-Time Video and Audio | Video and real-time platforms expose APIs and SDKs for embedding live video calls, broadcasts, conferences, and low-latency audio rooms into applications. |
-| Push Notifications and In-App Messaging | Push providers deliver native iOS and Android push notifications, web push, and in-app messages at scale across FCM, APNs, and proprietary delivery infrastructure. |
-| Realtime Chat and Pub/Sub | Realtime APIs provide WebSocket-based pub/sub channels, chat rooms, presence, and message history for collaborative and social applications. |
-| Notification Orchestration and Multi-Channel Delivery | Orchestration platforms unify SMS, email, push, chat, and in-app channels behind a single API with templating, preference management, and routing logic. |
-| Deliverability and Reputation Management | Deliverability tooling covers IP warmup, SPF/DKIM/DMARC, bounce and spam handling, suppression lists, and engagement-based sender reputation analytics. |
-| Number Provisioning and Verification | Communications APIs manage phone number purchase, porting, regulatory compliance, and verification flows like one-time passwords and silent network auth. |
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
 
-## Use Cases
+## How this profile is made
 
-| Name | Description |
-|------|-------------|
-| Two-Factor Authentication and OTP Delivery | Applications use SMS, voice, and email APIs to deliver one-time passcodes and verification messages for login, signup, and high-risk action confirmation. |
-| Transactional Notifications | Platforms send order confirmations, shipping updates, password resets, and account alerts through email, SMS, and push APIs as part of core product workflows. |
-| Customer Engagement Campaigns | Marketing teams orchestrate multi-channel email, SMS, and push campaigns using providers like Braze, Iterable, Customer.io, and Klaviyo to drive retention and lifecycle messaging. |
-| Live Video and Audio Embeds | Telehealth, education, and collaboration apps embed branded live video and audio experiences using Daily.co, Agora, LiveKit, Zoom SDKs, and Dolby. |
-| Contact Center and Programmable Voice | Support and sales teams build programmable IVRs, click-to-call, call tracking, and conversational voice flows on Twilio, Vonage, Dialpad, and RingCentral. |
-| Realtime Chat and Social Features | Apps add direct messaging, group chat, presence, and live commenting using Sendbird, Stream, PubNub, Ably, and Pusher. |
-| Operational and Incident Alerting | Engineering and SRE teams page on-call staff and broadcast incident status via SMS, voice, push, and email through Knock, Courier, and CPaaS providers. |
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Integrations
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Communications: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-| Name | Description |
-|------|-------------|
-| Twilio | Leading CPaaS provider offering programmable SMS, MMS, voice, video, email (via SendGrid), and verification APIs at global scale. |
-| Vonage | CPaaS platform covering SMS, voice, video, verify, and conversation APIs across messaging channels including WhatsApp and Viber. |
-| SendGrid | Transactional and marketing email API owned by Twilio, handling high-volume sends, templates, and deliverability. |
-| MessageBird | Omnichannel CPaaS provider (Bird) offering SMS, voice, email, WhatsApp, and conversational messaging APIs across global carriers. |
-| Sinch | Global CPaaS platform delivering SMS, voice, email (Mailgun, Mailjet), verification, and conversational messaging APIs. |
-| OneSignal | Push notification, in-app messaging, email, and SMS platform with a unified messaging API used by mobile and web applications. |
-| Sendbird | In-app chat, messaging, and calls API powering customer support and social experiences inside mobile and web applications. |
-| Daily.co | WebRTC-based video and audio API for embedding live calls, broadcasts, and recording into web and mobile applications. |
-| Mailgun | Transactional email and email validation API focused on deliverability for developers and high-volume senders. |
+## Open an issue
 
-## Artifacts
-
-Machine-readable definitions for the core entities used across the Communications topic.
-
-### JSON Schema
-
-- [Message Schema](json-schema/communications-message-schema.json)
-- [Delivery Receipt Schema](json-schema/communications-delivery-receipt-schema.json)
-
-### JSON Structure
-
-- [Message Structure](json-structure/communications-message-structure.json)
-- [Delivery Receipt Structure](json-structure/communications-delivery-receipt-structure.json)
-
-### JSON-LD
-
-- [Communications Context](json-ld/communications-context.jsonld)
-
-## Vocabulary
-
-- [Communications Vocabulary](vocabulary/communications-vocabulary.yaml) — Unified taxonomy of channels, resources, actions, workflows, and personas across CPaaS, email, push, chat, and video providers.
-
-## Network
-
-This index references the following Communications provider repositories:
-
-- [Ably](https://github.com/api-evangelist/ably)
-- [Aircall](https://github.com/api-evangelist/aircall)
-- [Airship](https://github.com/api-evangelist/airship)
-- [Amazon Pinpoint](https://github.com/api-evangelist/amazon-pinpoint)
-- [Amazon SES](https://github.com/api-evangelist/amazon-ses)
-- [Amazon SNS](https://github.com/api-evangelist/amazon-sns)
-- [api.video](https://github.com/api-evangelist/api-video)
-- [Bandwidth](https://github.com/api-evangelist/bandwidth)
-- [Braze](https://github.com/api-evangelist/braze)
-- [CallRail](https://github.com/api-evangelist/callrail)
-- [CleverTap](https://github.com/api-evangelist/clevertap)
-- [ClickSend SMS](https://github.com/api-evangelist/clicksend-sms)
-- [Courier](https://github.com/api-evangelist/courier)
-- [Crisp](https://github.com/api-evangelist/crisp)
-- [Customer.io](https://github.com/api-evangelist/customer-io)
-- [Daily.co](https://github.com/api-evangelist/daily-co)
-- [Dialpad](https://github.com/api-evangelist/dialpad)
-- [Dolby](https://github.com/api-evangelist/dolby)
-- [Iterable](https://github.com/api-evangelist/iterable)
-- [JustCall](https://github.com/api-evangelist/justcall)
-- [Klaviyo](https://github.com/api-evangelist/klaviyo)
-- [Knock](https://github.com/api-evangelist/knock)
-- [LiveKit](https://github.com/api-evangelist/livekit)
-- [Loops](https://github.com/api-evangelist/loops)
-- [Mailchimp](https://github.com/api-evangelist/mailchimp)
-- [MailerLite](https://github.com/api-evangelist/mailerlite)
-- [MailerSend](https://github.com/api-evangelist/mailersend)
-- [Mailgun](https://github.com/api-evangelist/mailgun)
-- [Mailjet](https://github.com/api-evangelist/mailjet)
-- [Mailtrap](https://github.com/api-evangelist/mailtrap)
-- [MessageBird](https://github.com/api-evangelist/messagebird)
-- [Mux](https://github.com/api-evangelist/mux)
-- [OneSignal](https://github.com/api-evangelist/onesignal)
-- [Plivo](https://github.com/api-evangelist/plivo)
-- [Postmark](https://github.com/api-evangelist/postmark)
-- [PubNub](https://github.com/api-evangelist/pubnub)
-- [Pusher](https://github.com/api-evangelist/pusher)
-- [Resend](https://github.com/api-evangelist/resend)
-- [RingCentral](https://github.com/api-evangelist/ringcentral)
-- [Sendbird](https://github.com/api-evangelist/sendbird)
-- [SendGrid](https://github.com/api-evangelist/sendgrid)
-- [Sinch](https://github.com/api-evangelist/sinch)
-- [Stream](https://github.com/api-evangelist/stream-io)
-- [Telesign](https://github.com/api-evangelist/telesign)
-- [Telnyx](https://github.com/api-evangelist/telnyx)
-- [Twilio](https://github.com/api-evangelist/twilio)
-- [Vonage](https://github.com/api-evangelist/vonage)
-- [Zoom](https://github.com/api-evangelist/zoom)
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/communications/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
